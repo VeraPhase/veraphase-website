@@ -1,0 +1,27 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="ico-glow-l" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0d7d79" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0d7d79" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ico-fill-ll" cx="70%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0d7d79" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#0d7d79" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ico-fill-rl" cx="30%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0ea5a0" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0ea5a0" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="ico-vesica-l">
+      <circle cx="21" cy="30" r="19"/>
+    </clipPath>
+  </defs>
+  <circle cx="30" cy="30" r="26" fill="none" stroke="#0d7d79" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="21" cy="30" r="19" fill="url(#ico-fill-ll)"/>
+  <circle cx="39" cy="30" r="19" fill="url(#ico-fill-rl)"/>
+  <circle cx="21" cy="30" r="19" fill="none" stroke="#0d7d79" stroke-width="1.8" opacity="0.4"/>
+  <circle cx="39" cy="30" r="19" fill="none" stroke="#0ea5a0" stroke-width="1.8" opacity="0.35"/>
+  <circle cx="39" cy="30" r="19" fill="#0d7d79" opacity="0.08" clip-path="url(#ico-vesica-l)"/>
+  <circle cx="30" cy="30" r="8" fill="url(#ico-glow-l)"/>
+  <circle cx="30" cy="30" r="2.8" fill="#0d7d79" opacity="0.9"/>
+</svg>
